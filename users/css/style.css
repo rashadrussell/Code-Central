@@ -1,0 +1,258 @@
+body, ul, li, h1, h2, h3, h4, h5, h6, div
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin-top: 0px;
+}
+
+strong, h3 {
+    font-size: 19px;
+}
+
+p, ul, ol {
+    font-family: helvetica;
+    font-size: 16px;
+}
+
+body {
+    width: 100%;
+    line-height: 25px;
+    font-family: sans;
+}
+
+#header {
+    width: 100%;
+    height: 100px;
+    clear: both;
+    background: url('../img/navBg.png') bottom repeat-x #2d506a;
+}
+
+#headerContainer {
+    width: 1280px;
+    margin: 0px auto;
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+#headerContainer #topContent .logo {
+    color: #fff;
+    float: left;
+    overflow: hidden;
+}
+
+#headerContainer #topContent ul {
+    list-style-type: none;
+    color: #fff;
+    overflow: hidden;
+}
+
+#headerContainer #topContent li {
+    float: right;
+    margin-left: 10px;
+}
+
+#headerContainer #topContent a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#headerContainer #topContent a:hover {
+    text-decoration: underline;
+}
+
+#headerContainer #nav a:hover {
+    text-decoration: underline;
+}
+
+#headerContainer #nav {
+    float: left;
+}
+
+#headerContainer #nav ul {
+    margin-top: 25px;
+}
+
+#headerContainer #nav li {
+    width: 20px;
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+}
+
+#headerContainer #nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+#headerContainer #nav a:hover {
+    text-decoration: underline;
+}
+
+#headerContainer #friendInfo {
+    margin-top: 25px;
+    text-align: right;
+}
+
+#headerContainer #friendInfo li {
+    width: 20px;
+    list-style-type: none;
+    display: inline;
+    margin-right: 20px;
+    text-align: right;
+}
+
+#headerContainer #friendInfo li:last-child {
+    margin-right: 0px;
+}
+
+#headerContainer #topContent h2 a:hover {
+    text-decoration: none;
+}
+
+#mainContent, #sidebar, #sidebar2 {
+    padding-top: 20px;
+}
+
+#mainContentWrapper {
+    width: 1280px;
+    margin: 0px auto;
+    overflow: hidden;
+}
+
+#sidebar {
+    width: 236px;
+    height: 100%;
+    float: left;
+    border-right: solid 1px #999;
+    padding-right: 20px;
+}
+
+#sidebar a {
+    text-decoration: none;
+    color: #000;
+}
+
+#sidebar a:hover {
+    text-decoration: underline;
+}
+
+#sidebar h3 {
+    text-decoration: underline;
+}
+
+#sidebar ul {
+    margin-bottom: 20px;
+}
+
+#mainContent {
+    width: 727px;
+    float: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow: hidden;
+}
+
+#sidebar2 {
+    width: 236px;
+    height: 100%;
+    float: left;
+    border-left: solid 1px #999;
+    padding-left: 20px;
+}
+
+#sidebar2 a {
+    text-decoration: none;
+    color: #000;
+}
+
+#sidebar2 a:hover {
+    text-decoration: underline;
+}
+
+#sidebar2 h3 {
+    text-decoration: underline;
+}
+
+#sidebar2 .books {
+    background: #e3e3e3;
+    display: block;
+    width: 100px;
+    height: 120px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+#sidebar2 .advertisement {
+    background: #e3e3e3;
+    display: block;
+    width: 100px;
+    height: 70px;
+    float: left;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-top: 50px;
+    font-weight: bold;
+}
+
+#footer {
+    width: 100%;
+    height: 50px;
+    clear: both;
+    background: #333;
+}
+
+
+/* Login Form*/
+#mainContent .loginForm input, select, #mainContent .signupForm input, select {
+    display: block;
+}
+
+/* Profile */
+#mainContent div {
+    margin-bottom: 20px;
+}
+
+#mainContent a {
+    color: #000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#mainContent a:hover {
+    text-decoration: underline;
+}
+
+#mainContent div.topInfo .profileImage {
+    float: left;
+    margin-right: 5px;
+}
+
+#mainContent div.topInfo {
+    overflow: hidden;
+}
+
+#mainContent div.bio input {
+    display: block;
+}
+
+#mainContent input.submit {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+#mainContent textarea {
+    font-size: 16px;
+    padding: 2px;
+}
+
+
+
+
+
+
